@@ -1,5 +1,5 @@
 # lb-anonymous
-An open source Anonymous chat app for lb-phone
+lb-anonymous is an open source Anonymous chat app for lb-phone
 the app is not perfect alot of fucntions are still not in use or broken main fucntions mostly work feel free to use and edit this as you wish 
 **note that this app is only allowed to be used and edited to be used in your own fivem server not sold or for any other personal benift**
 main password hbad
