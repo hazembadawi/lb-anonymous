@@ -10,3 +10,4 @@ www.discord.gg/farp
 you are welcome to join our server for roleplay 
 ***no support for app is allowed in the server***
 for app support reach me on my personal discord: HBAD 
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/e9f3f2d7-7568-44ee-96ec-36c65a35ff3f" />
