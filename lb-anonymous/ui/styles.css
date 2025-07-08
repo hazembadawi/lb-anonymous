@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    visibility: hidden;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px; 
+}
+
+.header-left img {
+    height: 32px;
+    filter:
+        drop-shadow(0 0 6px #00ffff)
+        drop-shadow(0 0 10px #00ffff);
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: var(--background-primary);
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    padding: 12px 20px 20px 20px;
+    gap: 1rem;
+    background-color: #112943;
+}
+
+.header,
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.2rem;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.4rem;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    color: #00ffff;
+    text-shadow:
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 15px #00ffff;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: #ff0040;
+    text-shadow:
+        0 0 5px #ff0040,
+        0 0 10px #ff0040,
+        0 0 15px #ff0040;
+}
+
+button {
+    width: 14rem;
+    height: 3.25rem;
+
+    background-color: var(--background-highlight);
+    color: var(--text-primary);
+
+    border: none;
+    border-radius: 0.3rem;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+
+    user-select: none;
+}
+
+.button-wrapper button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 16px;
+    background-color: rgba(0, 255, 255, 0.15);
+    color: #00ffff;
+    box-shadow: 0 0 6px #00ffff, 0 0 12px #00ffff;
+    text-align: center;
+    line-height: 32px;
+    padding: 0;
+}
+
+button:hover {
+    filter: brightness(0.8);
+}
+
+input {
+    width: 14rem;
+    height: 2.8rem;
+
+    background-color: var(--background-highlight);
+    color: var(--text-primary);
+
+    border: none;
+    border-radius: 0.3rem;
+
+    padding: 0 1rem;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    transition: all 0.25s ease-in-out;
+
+    outline: none;
+
+    box-shadow:
+        inset 0 0 6px #00ffff;
+}
+
+input::placeholder {
+    color: #6a7a93;
+}
+
+.dev-wrapper {
+    display: none;
+
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 29rem;
+    height: 58.5rem;
+}
+#chatMessages {
+    flex-grow: 1;               
+    width: 100%;
+    overflow-y: auto;           
+    margin: 10px 0;
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0.1);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #00ffff;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 8px #00ffff inset;
+    user-select: none;
+  }
+    .logout-btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 18px;
+        border: none;
+        background: rgba(255, 50, 50, 0.25) !important;
+        box-shadow: 0 0 6px #ff2b2b, 0 0 12px #ff2b2b !important;
+        color: #ff9c9c !important;
+      }
+      .send-btn {
+        width: 40px;         
+        height: 30px;
+        padding: 0;          
+        border-radius: 6px;
+        font-size: 18px;
+        border: none;
+        background: rgba(0, 255, 125, 0.25);
+        box-shadow: 0 0 6px #00ff7d, 0 0 12px #00ff7d;
+        color: #adffec;
+        flex: 0 0 40px;  
+        align-self: flex-start;
+        margin-top: -1px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @keyframes glitch-y {
+        0%   { transform: translateY(0); }
+        20%  { transform: translateY(-1px); }
+        40%  { transform: translateY(1px); }
+        60%  { transform: translateY(-2px); }
+        80%  { transform: translateY(2px); }
+        100% { transform: translateY(0); }
+      }
+      
+      @keyframes glitch-x {
+        0%   { transform: translateX(0); }
+        25%  { transform: translateX(-1px); }
+        50%  { transform: translateX(1px); }
+        75%  { transform: translateX(-2px); }
+        100% { transform: translateX(0); }
+      }
+      
+      .notif-glitch {
+        animation: glitch-y 0.3s ease-in-out 5,
+                   glitch-x 0.3s ease-in-out 5;
+        background: rgba(255, 0, 0, 0.25) !important;   /* red tint */
+        box-shadow: 0 0 8px #ff3030 !important;
+      }
+      
