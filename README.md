@@ -12,6 +12,7 @@ you are welcome to join our server for roleplay
 for app support reach me on my personal discord: HBAD 
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/e9f3f2d7-7568-44ee-96ec-36c65a35ff3f" />
 <img width="289" height="568" alt="Image" src="https://github.com/user-attachments/assets/8469acb6-527c-41fb-bd50-834c5c40f3d2" />
+<img width="285" height="103" alt="Image" src="https://github.com/user-attachments/assets/b75fa1fb-2066-4216-8075-e7d9abfd72aa" />
 <img width="279" height="584" alt="Image" src="https://github.com/user-attachments/assets/5a4a6e7b-9992-4b47-8c13-643714a72a66" />
 <img width="287" height="481" alt="Image" src="https://github.com/user-attachments/assets/ed076fe7-34b3-41f3-ae3f-c079e1e48777" />
 <img width="269" height="539" alt="Image" src="https://github.com/user-attachments/assets/31cdec0e-0776-4b64-8559-2cc5a192668d" />
