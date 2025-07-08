@@ -6,7 +6,7 @@ main password hbad
 admin panel passwords 123e
 use **/anonnotify** to send a global notification for all the phones online ( the command is useable by everyone if you want to change that change it yourself BUT just to be sure no one uses it in a bad way anytime the command is used a print will go to your server with the user id and the content )
 this app for FARP 
-discord.gg/farp 
+www.discord.gg/farp 
 you are welcome to join our server for roleplay 
 ***no support for app is allowed in the server***
 for app support reach me on my personal discord: HBAD 
