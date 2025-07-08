@@ -17,5 +17,5 @@ for app support reach me on my personal discord: HBAD
 <img width="269" height="539" alt="Image" src="https://github.com/user-attachments/assets/31cdec0e-0776-4b64-8559-2cc5a192668d" />
 <img width="285" height="160" alt="Image" src="https://github.com/user-attachments/assets/a6acb129-d632-4c8c-9714-a10fea3b3055" />
 <img width="276" height="152" alt="Image" src="https://github.com/user-attachments/assets/4b41c3ae-6af9-4955-9422-2886d1815386" />
-
+<img width="272" height="488" alt="Image" src="https://github.com/user-attachments/assets/3b920e1b-bc8e-4777-9acd-ce884f14deeb" />
 
